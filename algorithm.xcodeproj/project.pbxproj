@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1869C316254AAEF900E42A19 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869C315254AAEF900E42A19 /* main.swift */; };
+		1869C31E254AAF4500E42A19 /* 206-ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869C31D254AAF4500E42A19 /* 206-ReverseLinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		1869C312254AAEF900E42A19 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1869C315254AAEF900E42A19 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1869C31D254AAF4500E42A19 /* 206-ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206-ReverseLinkedList.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				1869C315254AAEF900E42A19 /* main.swift */,
+				1869C31D254AAF4500E42A19 /* 206-ReverseLinkedList.swift */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1869C31E254AAF4500E42A19 /* 206-ReverseLinkedList.swift in Sources */,
 				1869C316254AAEF900E42A19 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
