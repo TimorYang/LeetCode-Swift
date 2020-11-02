@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1869C316254AAEF900E42A19 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869C315254AAEF900E42A19 /* main.swift */; };
 		1869C31E254AAF4500E42A19 /* 206-ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869C31D254AAF4500E42A19 /* 206-ReverseLinkedList.swift */; };
+		18C4A5E1254FEC510060D0C6 /* 141-LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4A5E0254FEC510060D0C6 /* 141-LinkedListCycle.swift */; };
+		18C4A5E4254FECD00060D0C6 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4A5E3254FECD00060D0C6 /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		1869C312254AAEF900E42A19 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1869C315254AAEF900E42A19 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1869C31D254AAF4500E42A19 /* 206-ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206-ReverseLinkedList.swift"; sourceTree = "<group>"; };
+		18C4A5E0254FEC510060D0C6 /* 141-LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141-LinkedListCycle.swift"; sourceTree = "<group>"; };
+		18C4A5E3254FECD00060D0C6 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,20 @@
 		1869C314254AAEF900E42A19 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				18C4A5E6254FECF90060D0C6 /* List */,
 				1869C315254AAEF900E42A19 /* main.swift */,
-				1869C31D254AAF4500E42A19 /* 206-ReverseLinkedList.swift */,
 			);
 			path = algorithm;
+			sourceTree = "<group>";
+		};
+		18C4A5E6254FECF90060D0C6 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				18C4A5E3254FECD00060D0C6 /* ListNode.swift */,
+				18C4A5E0254FEC510060D0C6 /* 141-LinkedListCycle.swift */,
+				1869C31D254AAF4500E42A19 /* 206-ReverseLinkedList.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1869C31E254AAF4500E42A19 /* 206-ReverseLinkedList.swift in Sources */,
+				18C4A5E1254FEC510060D0C6 /* 141-LinkedListCycle.swift in Sources */,
 				1869C316254AAEF900E42A19 /* main.swift in Sources */,
+				18C4A5E4254FECD00060D0C6 /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
