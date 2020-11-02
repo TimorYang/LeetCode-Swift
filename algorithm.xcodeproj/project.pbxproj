@@ -11,6 +11,7 @@
 		1869C31E254AAF4500E42A19 /* 206-ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869C31D254AAF4500E42A19 /* 206-ReverseLinkedList.swift */; };
 		18C4A5E1254FEC510060D0C6 /* 141-LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4A5E0254FEC510060D0C6 /* 141-LinkedListCycle.swift */; };
 		18C4A5E4254FECD00060D0C6 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4A5E3254FECD00060D0C6 /* ListNode.swift */; };
+		18C4A5E9254FF5EC0060D0C6 /* 203-RemoveLinkedListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4A5E8254FF5EC0060D0C6 /* 203-RemoveLinkedListElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		1869C31D254AAF4500E42A19 /* 206-ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206-ReverseLinkedList.swift"; sourceTree = "<group>"; };
 		18C4A5E0254FEC510060D0C6 /* 141-LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141-LinkedListCycle.swift"; sourceTree = "<group>"; };
 		18C4A5E3254FECD00060D0C6 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		18C4A5E8254FF5EC0060D0C6 /* 203-RemoveLinkedListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203-RemoveLinkedListElements.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				18C4A5E3254FECD00060D0C6 /* ListNode.swift */,
 				18C4A5E0254FEC510060D0C6 /* 141-LinkedListCycle.swift */,
 				1869C31D254AAF4500E42A19 /* 206-ReverseLinkedList.swift */,
+				18C4A5E8254FF5EC0060D0C6 /* 203-RemoveLinkedListElements.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 				1869C31E254AAF4500E42A19 /* 206-ReverseLinkedList.swift in Sources */,
 				18C4A5E1254FEC510060D0C6 /* 141-LinkedListCycle.swift in Sources */,
 				1869C316254AAEF900E42A19 /* main.swift in Sources */,
+				18C4A5E9254FF5EC0060D0C6 /* 203-RemoveLinkedListElements.swift in Sources */,
 				18C4A5E4254FECD00060D0C6 /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
